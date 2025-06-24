@@ -10,42 +10,44 @@
 </head>
 <body>
 
-    <!-- Sidebar -->
-    <div class="sidebar">
-        <div>
-    <div class="logo">
-        <i class="fas fa-th-large"></i> 
+    <!-- Top Navbar -->
+    <nav>
+        <i class="fas fa-bars" id="toggleBtn"></i>
         <span>BIRS</span>
-    </div>            
+    </nav>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div>
             <div class="nav-links">
-                <a href="#"><i class="fas fa-home"></i>Home</a>
-                <a href="#"><i class="fas fa-chart-line"></i>Dashboard</a>
-                <a href="#"><i class="fas fa-edit"></i>File New Report</a>
-                <a href="#"><i class="fas fa-book"></i>My Reports</a>
-                
+                <a href="#"><i class="fas fa-home"></i><span>Home</span></a>
+                <a href="#"><i class="fas fa-chart-line"></i><span>Dashboard</span></a>
+                <a href="#"><i class="fas fa-edit"></i><span>File New Report</span></a>
+                <a href="#"><i class="fas fa-book"></i><span>My Reports</span></a>
             </div>
         </div>
 
-        <div class="bottom-section">
-            <div class="user-profile">
-                <img src="assets/1000000208.jpg" alt="User">
-                <div>kie coms</div>
-            </div>
-
-            <div class="notification">
-                <div><i class="fas fa-bell"></i> Notification</div>
-                <span class="badge">2</span>
-            </div>
-
-            <a href="#" class="logout"><i class="fas fa-sign-out-alt"></i> Log out</a>
+    <div class="bottom-section">
+        <div class="user-profile">
+           <img src="assets/1000000208.jpg" alt="User">
+           <div>kie coms</div>
         </div>
+
+        <a href="#" class="logout"><i class="fas fa-cogs"></i><span>Settings</span></a>
+        <a href="#" class="logout"><i class="fas fa-bell"></i><span>Notification</span></a>
+        <a href="#" class="logout"><i class="fas fa-sign-out-alt"></i><span>Log out</span></a>
+    </div>
+
     </div>
 
     <!-- Main Content -->
     <div class="content">
-        <h1>Dashboard</h1>
-        <p>Welcome to the Barangay Incident Reporting System.</p>
+        <div class="box" style="background-color: #f5ebb5;"></div>
+        <div class="box" style="background-color: #272622;"></div>
+        <div class="box" style="background-color: #272622;"></div>
+        <div class="box" style="background-color: #272622;"></div>
     </div>
 
+     <script src="sources/index.js"></script>
 </body>
-</html>
+</html
