@@ -14,12 +14,12 @@ const data = {
       ],
       datasets: [{
         label: 'Reports',
-        data: [30, 5, 12, 8],
+        data: [3, 5, 12, 8],
         backgroundColor: [
-          'rgb(207, 44, 80)',   
-          'rgb(119, 109, 74)',  
-          'rgb(87, 82, 70)',   
-          'rgb(135, 135, 136)'
+          'rgb(26, 116, 104)',   
+          'rgb(55, 160, 95)',  
+          'rgb(92, 211, 132)',   
+          'rgb(76, 182, 108)'
         ],
         hoverOffset: 4
       }]
