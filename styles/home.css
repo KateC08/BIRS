@@ -196,15 +196,24 @@
         }
 
         .charts {
-            width: 400px;
-            height: 400px;
+            width: 500px;
+            height: 450px;
             display: flex;
             flex-direction: row;  
-            align-items: center;     
+            align-items: center;
+            justify-content: center;
             gap: 30px;               
-            padding: 20px;
+            padding: 18px;
             margin-top: 20px;
-        }      
+            margin-left: auto;
+            margin-right: auto;
+        }  
+        
+        .table{
+            width: 550px;
+            height: auto;
+            padding: 20px;
+        }
 
         /* Responsive */
         @media (max-width: 768px) {
@@ -230,5 +239,11 @@
 
             .sidebar.show ~ .content {
                 margin-left: 250px;
+            }
+
+            .charts {
+                flex-direction: column;
+                width: 100%;
+                height: auto;
             }
         }
